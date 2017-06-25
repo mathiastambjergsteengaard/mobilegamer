@@ -1,0 +1,33 @@
+= simple_form_for @game, url: @new ? games_path : game_path(@game), html: { novalidate: true } do |f|
+  .panel
+    .panel-body
+      = f.input :name
+  .panel
+    .panel-body
+      = f.input :url_name
+  .panel
+    .panel-body
+      = f.input :review
+  .panel
+    .panel-body
+      = f.input :genre, collection: @game.genres
+  .panel
+    .panel-body
+      = f.input :youtube_url
+  .panel
+    .panel-body
+      = f.input :meta_title
+  .panel
+    .panel-body
+      = f.input :meta_description
+  .panel
+    .panel-body
+      = f.input :online
+  .panel
+    .panel-body
+      = f.input :android_download_links
+  .panel
+    .panel-body
+      = f.input :ios_download_links
+
+  = f.submit
