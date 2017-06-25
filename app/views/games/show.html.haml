@@ -10,8 +10,8 @@
   %iframe#youtube{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/a23yh4rGNOE"}
   .row
     .col-xs-6
-      = link_to image_path "", @game.android_download_links
+      = link_to image_tag("play_store_badge.png"), @game.android_download_links, class: "android_badge"
     .col-xs-6
-      = link_to image_path "", @game.ios_download_links
+      = link_to image_tag("app_store_badge.png"), @game.ios_download_links, class: "ios_badge"
   .review_container
     = @game.review
