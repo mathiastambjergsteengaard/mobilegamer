@@ -12,6 +12,7 @@
     .col-xs-6
       = link_to image_tag("play_store_badge.png"), @game.android_download_links, class: "android_badge"
     .col-xs-6
-      = link_to image_tag("app_store_badge.png"), @game.ios_download_links, class: "ios_badge"
+      = link_to image_tag("app_store_badge.png"), @game.ios_download_links, class: "ios_badge "
   .review_container
-    = @game.review
+    %h4= @game.name + "review"
+    %p= @game.review

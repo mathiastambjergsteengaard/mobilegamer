@@ -8,6 +8,7 @@ iframe#youtube{
   height: 338px;
   width:100%;
   margin: auto;
+  margin-bottom:10px;
 }
 
 .container{
@@ -35,10 +36,23 @@ h4{
 }
 
 .new_game_button_container{
+  padding-top: 25px;
+  padding-bottom:20px;
   width: 80%;
   margin:auto;
 }
 
-android{
-  
+.android_badge{
+  img{
+    width:80%;
+    margin-left:17%;
+  }
+}
+
+.ios_badge{
+  img{
+    width:73%;
+    padding-top:12px;
+    margin-left:4%;
+  }
 }
