@@ -8,8 +8,8 @@ class CreateGames < ActiveRecord::Migration
       t.string :meta_title
       t.string :meta_description
       t.boolean :online, default: :true
-      t.string :android_download_links
-      t.string :ios_download_links
+      t.string :android_download_link
+      t.string :ios_download_link
     end
   end
 end

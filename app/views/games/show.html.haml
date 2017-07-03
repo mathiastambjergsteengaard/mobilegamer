@@ -1,6 +1,17 @@
 .container
-  .new_game_button_container
-    = link_to "New game recommendation", game_path(@game), class: "btn btn-default btn-lg new_game_button"
+  .row.button_container
+    .col-xs-2
+      .dropdown
+        %button.btn.collapsed.btn-lg.nav_button.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+          %i.fa.fa-bars{"aria-hidden" => "true"}
+        %ul.dropdown-menu
+          = simple_form_for @genre, url: game_path(@game), method: :get do |f|
+            %li
+              .panel
+                .panel-body
+                  = f.input :name, as: :radio_buttons, required: false, label: "Choose genre", collection: @genres.map{ |genre| [genre.name, genre.id]}, checked: @genre.id
+    .col-xs-10
+      .btn.btn-default.btn-lg.new_game_button= "New Game Recommandation"
   .row
     .col-xs-8
       %h3= @game.name
@@ -8,11 +19,38 @@
       %h4= @game.genre + " - " + (@game.online ? "Online" : "Offline")
   .clear
   %iframe#youtube{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/a23yh4rGNOE"}
-  .row
-    .col-xs-6
-      = link_to image_tag("play_store_badge.png"), @game.android_download_links, class: "android_badge"
-    .col-xs-6
-      = link_to image_tag("app_store_badge.png"), @game.ios_download_links, class: "ios_badge "
+  - if @game.ios_download_link?
+    .row
+      .col-xs-6
+        = link_to image_tag("play_store_badge.png"), @game.android_download_link, class: "android_badge"
+      .col-xs-6
+        = link_to image_tag("app_store_badge.png"), @game.ios_download_link, class: "ios_badge "
+  - else
+    .row
+      .col-xs-2
+      .col-xs-8
+        = link_to image_tag("play_store_badge.png"), @game.android_download_link, class: "android_badge_single", target: "_blank"
   .review_container
     %h4= @game.name + "review"
     %p= @game.review
+
+:javascript
+  $("form :input").change(function() {
+    $("form").submit()
+  });
+
+  $('.new_game_button').click(function(){
+    url = window.location.href
+    new_url = ""
+    console.log(url.includes('?'))
+    if(!url.includes('new_game=true')){
+      if(url.includes('?')){
+        new_url = url + "&new_game=true"
+      } else {
+        new_url = url + "?new_game=true"
+      }
+    }
+    console.log(new_url)
+    window.location.href = new_url
+  });
+

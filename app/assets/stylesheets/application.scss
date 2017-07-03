@@ -3,6 +3,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import 'font-awesome';
 
 iframe#youtube{
   height: 338px;
@@ -16,6 +17,10 @@ iframe#youtube{
   margin:auto;
 }
 
+@media (max-width: 767px) {
+  width: 100%;
+}
+
 h3{
   margin-top:10px;
 }
@@ -27,10 +32,27 @@ h4{
 .new_game_button{
   background-color: #4675d9;
   color:white;
-  width:100%;
+  width:80%;
+  margin-left:45px;
+}
+
+.nav_button{
+  background-color: #4675d9;
+  color:white;
+  margin-left:50px;
 }
 
 .new_game_button:hover{
+  background-color: #3165d5;
+  color:white;
+}
+
+.new_game_button:active {
+  background-color: #3165d5;
+  color:white;
+}
+
+.nav_button:hover{
   background-color: #3165d5;
   color:white;
 }
@@ -42,10 +64,20 @@ h4{
   margin:auto;
 }
 
+.button_container{
+  margin-top:25px;
+}
+
 .android_badge{
   img{
     width:80%;
     margin-left:17%;
+  }
+}
+.android_badge_single{
+  img{
+    width:80%;
+    margin-left:10%;
   }
 }
 
@@ -56,3 +88,21 @@ h4{
     margin-left:4%;
   }
 }
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 4px \9;
+}
+.panel-body{
+  padding-left: 25px;
+  padding-bottom:0px;
+}
+
+.fa-bars{
+  color:white;
+}
+//.dropdown{
+//  position:fixed;
+//  top: 10px;
+//  left: 10px;
+//}

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170625160318) do
+ActiveRecord::Schema.define(version: 20170701083541) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,9 +23,9 @@ ActiveRecord::Schema.define(version: 20170625160318) do
     t.string  "youtube_url"
     t.string  "meta_title"
     t.string  "meta_description"
-    t.boolean "online",                 default: true
-    t.string  "android_download_links"
-    t.string  "ios_download_links"
+    t.boolean "online",                default: true
+    t.string  "android_download_link"
+    t.string  "ios_download_link"
     t.string  "genre"
   end
 
@@ -36,6 +36,10 @@ ActiveRecord::Schema.define(version: 20170625160318) do
 
   add_index "games_tags", ["game_id"], name: "index_games_tags_on_game_id", using: :btree
   add_index "games_tags", ["tag_id"], name: "index_games_tags_on_tag_id", using: :btree
+
+  create_table "genres", force: :cascade do |t|
+    t.string "name"
+  end
 
   create_table "tags", force: :cascade do |t|
     t.string "name"
