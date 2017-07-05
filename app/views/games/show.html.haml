@@ -16,9 +16,9 @@
     .col-xs-8
       %h3= @game.name
     .col-xs-4
-      %h4= @game.genre + " - " + (@game.online ? "Online" : "Offline")
+      %h4.pull-right= Genre.find(@game.genre.to_i).name + " - " + (@game.online ? "Online" : "Offline")
   .clear
-  %iframe#youtube{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/a23yh4rGNOE"}
+  %iframe#youtube{:allowfullscreen => "", :frameborder => "0", :src => @game.youtube_url}
   - if @game.ios_download_link?
     .row
       .col-xs-6

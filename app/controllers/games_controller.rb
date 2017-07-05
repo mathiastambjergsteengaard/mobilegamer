@@ -13,7 +13,8 @@ class GamesController < ApplicationController
       url = request.original_url.split('?')
       length = url[0].length
       url[0][length-1] = game_id.to_s
-      redirect_to url[0] + url[1]
+      new_url = url[0] + url[1].gsub("&new_game=true", "").gsub("new_game=true&", "")
+      redirect_to new_url
     else
       @game = Game.find(params[:id])
     end

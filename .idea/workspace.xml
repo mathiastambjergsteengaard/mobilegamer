@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b22c6ab2-df7b-4d88-86eb-fee581bfc0f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game.rb" afterPath="$PROJECT_DIR$/app/models/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/games/_form.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/show.html.haml" afterPath="$PROJECT_DIR$/app/views/games/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170625114612_create_games.rb" afterPath="$PROJECT_DIR$/db/migrate/20170625114612_create_games.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -46,15 +37,15 @@
       <file leaf-file-name="show.html.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/games/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="34" />
+            <state relative-caret-position="87">
+              <caret line="20" column="88" lean-forward="false" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
               <folding>
-                <marker date="1499108314000" expanded="true" signature="1486:1511" ph="{...}" />
-                <marker date="1499108314000" expanded="true" signature="1486:1514" ph="{...}" />
-                <marker date="1499108314000" expanded="true" signature="1558:1886" ph="{...}" />
-                <marker date="1499108314000" expanded="true" signature="1681:1822" ph="{...}" />
-                <marker date="1499108314000" expanded="true" signature="1710:1760" ph="{...}" />
-                <marker date="1499108314000" expanded="true" signature="1766:1816" ph="{...}" />
+                <marker date="1499112008000" expanded="true" signature="1493:1518" ph="{...}" />
+                <marker date="1499112008000" expanded="true" signature="1493:1521" ph="{...}" />
+                <marker date="1499112008000" expanded="true" signature="1565:1893" ph="{...}" />
+                <marker date="1499112008000" expanded="true" signature="1688:1829" ph="{...}" />
+                <marker date="1499112008000" expanded="true" signature="1717:1767" ph="{...}" />
+                <marker date="1499112008000" expanded="true" signature="1773:1823" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -63,8 +54,8 @@
       <file leaf-file-name="games_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -113,8 +104,8 @@
       <file leaf-file-name="game.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,14 +175,14 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/db/migrate/20170701083320_create_genres.rb" />
-        <option value="$PROJECT_DIR$/app/models/game.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20170701083541_generate_genres.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/games/show.html.haml" />
         <option value="$PROJECT_DIR$/app/models/genre.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/games/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/game.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/games/show.html.haml" />
       </list>
     </option>
   </component>
@@ -202,7 +193,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-282" />
+    <option name="y" value="-877" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
   </component>
@@ -628,15 +620,15 @@
       <workItem from="1498386103671" duration="21238000" />
       <workItem from="1498834660174" duration="8317000" />
       <workItem from="1499103530616" duration="33000" />
-      <workItem from="1499103567821" duration="4624000" />
+      <workItem from="1499103567821" duration="5420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34212000" />
+    <option name="totallyTimeSpent" value="35008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <frame x="-282" y="-877" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.005722461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -722,12 +714,12 @@
         <state relative-caret-position="240">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
-            <marker date="1499108314000" expanded="true" signature="1486:1511" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1486:1514" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1558:1886" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1681:1822" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1710:1760" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1766:1816" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1493:1518" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1493:1521" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1565:1893" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1688:1829" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1717:1767" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1773:1823" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1006,14 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1026,14 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="80" lean-forward="false" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/genre.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1056,23 +1032,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/genre.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/games/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="87">
+          <caret line="20" column="88" lean-forward="false" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
           <folding>
-            <marker date="1499108314000" expanded="true" signature="1486:1511" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1486:1514" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1558:1886" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1681:1822" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1710:1760" ph="{...}" />
-            <marker date="1499108314000" expanded="true" signature="1766:1816" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1493:1518" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1493:1521" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1565:1893" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1688:1829" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1717:1767" ph="{...}" />
+            <marker date="1499112008000" expanded="true" signature="1773:1823" ph="{...}" />
           </folding>
         </state>
       </provider>
